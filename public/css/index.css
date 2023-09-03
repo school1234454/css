@@ -1,0 +1,142 @@
+:root {
+background: rgb(255, 255, 255);
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box {
+    background-color: green;
+}
+.box > p {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+    color: aliceblue;
+}
+/* dsfdfdfdf */
+ul > li {
+    background-color: red;
+}
+/* dfsdfsd */
+
+.header-button + span {
+    background-color: rgb(128, 0, 0);
+}
+.susid ~ p {
+ background-color: blue;
+ color: white;
+}
+
+.salo, #bread {
+    background-color: yellow;
+}
+
+.first-task ul li:first-child {
+    color: white;
+}
+
+.second-task ul:first-child li:first-child {
+    color: yellow;
+}
+
+.third-task ul:nth-child(2) li:first-child {
+    background-color: yellow;
+}
+
+.four-task ul li:last-child {
+    background-color: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+    color: white;
+}
+
+.only-child-task > div:only-child {
+    color: red;
+}
+
+.seven-task p:first-of-type {
+    background-color: red;
+}
+
+.eight-task p:last-of-type {
+    background-color: red;
+}
+
+.nine-task > .text-wrapper:only-of-type p {
+    background-color: yellow;
+}
+
+.lesson-three-task-one a[href] {
+    color: white;
+}
+
+.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+.lesson-three-task-three li[value='3'] {
+    background-color: red;
+}
+
+.lesson-three-task-four button.primary {
+    background-color: blue;
+}
+
+.lesson-three-task-five button[class^="secondary"] {
+    background-color: red;
+}
+
+.lesson-three-task-six li[class^="b"] {
+    color: green;
+    background-color: white;
+}
+
+.lesson-three-task-seven li[class*="on"] {
+    color: green;
+    background-color: white;
+}
+
+.lesson-three-task-eight [class$="s"] {
+    background-color: white;
+    color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+    background-color: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+    background-color: red;
+}
+
+.lesson-three-task-twelve ul li::before {
+    content: "➤";
+    margin-right: 5px; 
+}
+
+.lesson-three-task-thirteen ul li::after {
+    content: "➤";
+    margin-left: 5px;
+}
+
